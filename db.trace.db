@@ -1,0 +1,44 @@
+2019-05-29 15:21:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS TASK ([*]
+    |		ID      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		CONTENT VARCHAR(100) NOT NULL,
+    |		DONE    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) "; SQL statement:
+CREATE TABLE IF NOT EXISTS task (
+    |		id      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		content VARCHAR(100) NOT NULL,
+    |		done    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) [42000-199]
+2019-05-29 15:23:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS TASK ([*]
+    |		ID      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		CONTENT VARCHAR(100) NOT NULL,
+    |		DONE    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) "; SQL statement:
+CREATE TABLE IF NOT EXISTS task (
+    |		id      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		content VARCHAR(100) NOT NULL,
+    |		done    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) [42000-199]
+2019-05-29 15:26:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS TASK ([*]
+    |		ID      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		CONTENT VARCHAR(100) NOT NULL,
+    |		DONE    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) "; SQL statement:
+CREATE TABLE IF NOT EXISTS task (
+    |		id      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |		content VARCHAR(100) NOT NULL,
+    |		done    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |		) [42000-199]
+2019-05-29 15:30:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS TASK ([*]
+    |ID      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |CONTENT VARCHAR(100) NOT NULL,
+    |DONE    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |) "; SQL statement:
+CREATE TABLE IF NOT EXISTS task (
+    |id      BIGINT       PRIMARY KEY AUTO_INCREMENT,
+    |content VARCHAR(100) NOT NULL,
+    |done    BOOLEAN      NOT NULL    DEFAULT FALSE
+    |) [42000-199]
